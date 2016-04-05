@@ -1,0 +1,82 @@
+/* -*- coding: utf-8 -*- */
+/* Custom CSS file for my presentations (preserve the original styles)*/
+/* Time-stamp: "2016-04-04 11:34:12 lafargu" */
+/* contact: romain.lafarguette@gmail.com */
+
+
+/*********************************************
+ * GLOBAL STYLES
+ *********************************************/
+body {
+  background: #111;
+  background-color: #111; }
+
+.reveal {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  color: #eee; }
+
+::selection {
+  color: #fff;
+  background: #e7ad52;
+  text-shadow: none; }
+
+.reveal .slides > section,
+.reveal .slides > section > section {
+  line-height: 1.3;
+  font-weight: inherit; }
+
+
+
+/*********************************************
+ * HEADERS
+ *********************************************/
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6
+
+.reveal h1 {
+    font-size: 1.85em;
+    text-shadow: none;
+    color: #eee;} 
+
+.reveal h2 {
+    font-size: 1.55em;
+    color: #eee;} 
+
+.reveal h3 {
+  font-size: 1.25em; }
+
+.reveal h4 {
+  font-size: 1em; }
+
+.reveal h5 {
+    font-size: 0.8em;  }
+
+.reveal h6 {
+  margin: 0 0 15px 0;
+  color: #eee;
+  font-family: "Montserrat", Impact, sans-serif;
+  font-weight: normal;
+  line-height: 1;
+  letter-spacing: -0.03em;
+  text-transform: none;
+  text-shadow: none;
+  word-wrap: break-word; }
+
+
+/*********************************************
+ * Bullet points
+ *********************************************/
+
+.reveal ul li {
+  padding: 15px 0px;}
+
+
+.reveal ol li {
+  padding: 15px 0px;}
+
